@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Real Estate</title>
-</head>
-<body>
-    
-</body>
+
+    <!-- DaisyUI & TAILWIND CSS FRAMEWORK -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/b4b295e3ab.js" crossorigin="anonymous"></script>
+
+    <!-- Raw css style -->
+    <style>
+      .manrope {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </head>
+
+  <body class="manrope">
+    <!--Start Header part -->
+    <header>
+    <!-- NAVBAR SECTION DONE -->
+      <div class="navbar bg-base-100 shadow-xl  w-3/4 mx-auto mt-7">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow text-gray-400"
+            >
+              <li><a class="text-black font-bold">Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+              
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-2xl font-bold text-start">
+            <i class="fa-solid fa-arrow-right -rotate-45 text-black font-thin bg-[#ABEF5F] rounded-full p-1 ml-20 md:ml-0 "></i>
+            <span class="text-[#ABEF5F]">W</span>interior
+          </a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-[#737373]">
+              <li><a class="font-bold text-black">Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+           <div class="hidden md:flex">
+            <i class="fa-solid fa-magnifying-glass bg-white p-2 text-[#ABEF5F] border-1 border-gray-400 mx-1 rounded-full hover:text-black "></i>
+            <i class="fa-solid fa-cart-shopping bg-white p-2 text-[#ABEF5F] border-1 border-gray-400 mx-4 rounded-full hover:text-black"></i>
+           </div>
+          <a class="btn bg-[#ABEF5F] rounded-3xl font-bold hover:bg-white p-4 hidden md:flex">Book Counsult <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-full p-2 hover:bg-[#ABEF5F] "></i></a>
+        </div>
+      </div>
+    <!-- END NAVBAR SECTION -->
+
+    </header>
+
+    <!-- Main part -->
+    <main></main>
+
+    <!-- Footer part start -->
+    <footer></footer>
+  </body>
 </html>
